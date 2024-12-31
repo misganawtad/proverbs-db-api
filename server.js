@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // React app's address
+  origin: 'https://proverbs-form.vercel.app', // React app's address
   credentials: true
 }));
 app.use(express.json());
